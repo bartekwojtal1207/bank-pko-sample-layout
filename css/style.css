@@ -58,3 +58,7 @@ body {
       margin-bottom: 0;
       display: inline-block;
       color: #a9a9a9; }
+
+.contact .contact__title {
+  font-size: 28px;
+  margin-top: 20px; }
