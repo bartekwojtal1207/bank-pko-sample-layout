@@ -1,0 +1,66 @@
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.header {
+  .header__title {
+    padding: 20px 0 40px 0;
+    font-size: 30px;
+
+    .header__title__link {
+      color: #212529;
+      &:hover { text-decoration: none;}
+    }
+  }
+
+  .header__hr {
+    width: 100%;
+    border-top: 1px solid rgba(0,0,0,.1)
+  }
+}
+
+.credit {
+
+  .credit__company {
+    padding-left: 0;
+
+    .credit__logo {
+      width: 145px;
+      height: 50px;
+    }
+
+    .credit__title {
+      margin: 0;
+      margin-top: 7px;
+    }
+
+    .credit__bank_name {
+      color: rgba(0,0,0,.3);
+      width: 100%;
+    }
+
+    .credit__raiting {
+      background-image: url("../img/star-icon.svg");
+      width: 77px;
+      height: 15px;
+      display: block;
+    }
+  }
+
+
+  .credit__info {
+    padding-left: 0;
+
+    .credit__info__amount {
+      margin-bottom: 0;
+    }
+    .credit__info__time {
+      margin-bottom: 0;
+    }
+  }
+
+  .credit__hr {
+    width: 100%;
+    border-top: 1px solid rgba(0,0,0,.1)
+  }
+}
