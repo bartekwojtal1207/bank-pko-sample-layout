@@ -64,3 +64,30 @@ body {
     border-top: 1px solid rgba(0,0,0,.1)
   }
 }
+
+.security {
+  .security__container {
+    padding-left: 0;
+    padding-top: 35px;
+  }
+  .security__list {
+    padding-left: 0;
+
+    .security__list_item {
+      list-style: none;
+      margin-bottom: 5px;
+
+      .security_item__logo {
+        width: 3.5%;
+        display: inline-block;
+        margin-right: 4px;
+      }
+
+      .security_item__title {
+        margin-bottom: 0;
+        display: inline-block;
+        color: #a9a9a9;
+      }
+    }
+  }
+}
