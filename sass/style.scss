@@ -114,8 +114,10 @@ body {
     display: block;
   }
 
-  .form-group { margin-bottom: 0; }
-
+  .form-group {
+    margin-bottom: 0;
+    height: 75px;
+  }
 
   .contact__form {
 
@@ -132,7 +134,7 @@ body {
     .contact__form__input_label {
       position: relative;
       z-index: 99;
-      top: 40px;
+      top: -30px;
       color: #495057;
     }
     .contact__form__checkbox_label {
@@ -187,5 +189,3 @@ body {
     }
   }
 }
-.form-group:last-of-type {
-  margin-bottom: 20px; color: red; }
