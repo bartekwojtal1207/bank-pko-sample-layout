@@ -81,9 +81,6 @@ body {
 .contact .form-group {
   margin-bottom: 0; }
 
-.contact .form-group:last-of-type {
-  margin-bottom: 20px; }
-
 .contact .contact__form .contact__form__input {
   border: none;
   border-bottom: 1px solid cadetblue;
@@ -99,6 +96,11 @@ body {
   z-index: 99;
   top: 40px;
   color: #495057; }
+
+.contact .contact__form .contact__form__checkbox_label {
+  font-size: 14px;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 0.6); }
 
 .contact .contact__form .contact__contact_form__submit {
   margin-top: 10px;
@@ -130,3 +132,6 @@ body {
     display: inline-block; }
     .footer .footer__wp_content .footer__wp_content__logo {
       margin-right: 5px; }
+
+.form-group:last-of-type {
+  margin-bottom: 20px; }

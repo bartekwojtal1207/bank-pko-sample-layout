@@ -115,7 +115,7 @@ body {
   }
 
   .form-group { margin-bottom: 0; }
-  .form-group:last-of-type { margin-bottom: 20px; }
+
 
   .contact__form {
 
@@ -134,6 +134,11 @@ body {
       z-index: 99;
       top: 40px;
       color: #495057;
+    }
+    .contact__form__checkbox_label {
+      font-size: 14px;
+      line-height: 20px;
+      color: rgba(0,0,0,.6);
     }
     .contact__contact_form__submit {
       margin-top: 10px;
@@ -182,3 +187,5 @@ body {
     }
   }
 }
+.form-group:last-of-type {
+  margin-bottom: 20px; color: red; }
