@@ -76,10 +76,13 @@ body {
 .contact .contact__subtitle {
   font-size: 14px;
   line-height: 16px;
-  display: block; }
+  display: block;
+  margin-bottom: 28px; }
 
 .contact .form-group {
-  margin-bottom: 0; }
+  margin-bottom: 0;
+  height: 38px;
+  margin-top: 20px; }
 
 .contact .contact__form .contact__form__input {
   border: none;
@@ -132,7 +135,3 @@ body {
     display: inline-block; }
     .footer .footer__wp_content .footer__wp_content__logo {
       margin-right: 5px; }
-
-.form-group:last-of-type {
-  margin-bottom: 20px;
-  color: red; }
