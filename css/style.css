@@ -1,10 +1,14 @@
 body {
-  font-family: 'Source Sans Pro', sans-serif; }
+  font-family: 'Source Sans Pro', sans-serif;
+  line-height: 24px; }
+  body .container {
+    max-width: 905px; }
 
 .header .header__title {
   margin-top: 30px;
   margin-bottom: 60px;
-  font-size: 30px; }
+  font-size: 30px;
+  line-height: 24px; }
   .header .header__title .header__title__link {
     color: #212529; }
     .header .header__title .header__title__link:hover {
@@ -50,7 +54,9 @@ body {
   padding-left: 0; }
   .security .security__list .security__list_item {
     list-style: none;
-    margin-bottom: 5px; }
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 400; }
     .security .security__list .security__list_item .security_item__logo {
       width: 3.5%;
       display: inline-block;
@@ -65,10 +71,18 @@ body {
 
 .contact .contact__title {
   font-size: 28px;
-  margin-top: 30px; }
+  margin: 27px 0 10px; }
+
+.contact .contact__subtitle {
+  font-size: 14px;
+  line-height: 16px;
+  display: block; }
 
 .contact .form-group {
   margin-bottom: 0; }
+
+.contact .form-group:last-of-type {
+  margin-bottom: 20px; }
 
 .contact .contact__form .contact__form__input {
   border: none;
@@ -77,6 +91,8 @@ body {
   outline: none;
   box-shadow: none;
   color: #000; }
+  .contact .contact__form .contact__form__input:focus + .contact__form__input_label {
+    display: none; }
 
 .contact .contact__form .contact__form__input_label {
   position: relative;
@@ -109,5 +125,8 @@ body {
       margin-right: 7px; }
       .footer .footer__list .footer__list__item a {
         color: #FFF; }
-  .footer .footer__wp_content .footer__wp_content__logo {
-    margin-right: 5px; }
+  .footer .footer__wp_content {
+    float: right;
+    display: inline-block; }
+    .footer .footer__wp_content .footer__wp_content__logo {
+      margin-right: 5px; }

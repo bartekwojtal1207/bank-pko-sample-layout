@@ -1,5 +1,7 @@
 body {
   font-family: 'Source Sans Pro', sans-serif;
+  line-height: 24px;
+  .container { max-width: 905px; }
 }
 
 .header {
@@ -7,6 +9,7 @@ body {
     margin-top: 30px;
     margin-bottom: 60px;
     font-size: 30px;
+    line-height: 24px;
 
     .header__title__link {
       color: #212529;
@@ -76,7 +79,9 @@ body {
 
     .security__list_item {
       list-style: none;
-      margin-bottom: 5px;
+      margin-bottom: 10px;
+      font-size: 14px;
+      font-weight: 400;
 
       .security_item__logo {
         width: 3.5%;
@@ -101,10 +106,16 @@ body {
 
   .contact__title {
     font-size: 28px;
-    margin-top: 30px;
+    margin: 27px 0 10px;
+  }
+  .contact__subtitle {
+    font-size: 14px;
+    line-height: 16px;
+    display: block;
   }
 
   .form-group { margin-bottom: 0; }
+  .form-group:last-of-type { margin-bottom: 20px; }
 
   .contact__form {
 
@@ -115,6 +126,8 @@ body {
       outline: none;
       box-shadow: none;
       color: #000;
+      &:focus + .contact__form__input_label
+        { display: none; }
     }
     .contact__form__input_label {
       position: relative;
@@ -161,6 +174,8 @@ body {
     }
   }
   .footer__wp_content {
+    float: right;
+    display: inline-block;
 
     .footer__wp_content__logo {
       margin-right: 5px;
