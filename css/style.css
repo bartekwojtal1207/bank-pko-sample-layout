@@ -25,10 +25,13 @@ body {
     height: 50px; }
   .credit .credit__company .credit__title {
     margin: 0;
-    margin-top: 7px; }
+    margin-top: 7px;
+    font-size: 24px;
+    line-height: 28px; }
   .credit .credit__company .credit__bank_name {
     color: rgba(0, 0, 0, 0.3);
-    width: 100%; }
+    width: 100%;
+    line-height: 24px; }
   .credit .credit__company .credit__raiting {
     background-image: url("../img/star-icon.svg");
     width: 77px;
@@ -36,11 +39,14 @@ body {
     display: block; }
 
 .credit .credit__info {
-  padding-left: 0; }
-  .credit .credit__info .credit__info__amount {
-    margin-bottom: 0; }
-  .credit .credit__info .credit__info__time {
-    margin-bottom: 0; }
+  padding-left: 0;
+  margin-top: 10px; }
+  .credit .credit__info .credit__info__list {
+    margin-bottom: 0;
+    font-size: 14px;
+    color: #333;
+    padding-left: 0;
+    list-style: none; }
 
 .credit .credit__hr {
   width: 100%;
@@ -100,10 +106,13 @@ body {
   top: -30px;
   color: #495057; }
 
-.contact .contact__form .contact__form__checkbox_label {
-  font-size: 14px;
-  line-height: 20px;
-  color: rgba(0, 0, 0, 0.6); }
+.contact .contact__form .contact__form__check_wrapper {
+  margin-top: 20px;
+  margin-bottom: 10px; }
+  .contact .contact__form .contact__form__check_wrapper .contact__form__checkbox_label {
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.6); }
 
 .contact .contact__form .contact__contact_form__submit {
   margin-top: 10px;
@@ -119,7 +128,8 @@ body {
   bottom: 0;
   width: 100%;
   color: #a9a9a9;
-  font-size: 14px; }
+  font-size: 14px;
+  padding-top: 10px; }
   .footer .container {
     padding-left: 0; }
   .footer .footer__list {
@@ -127,7 +137,8 @@ body {
     display: inline-block; }
     .footer .footer__list .footer__list__item {
       display: inline-block;
-      margin-right: 7px; }
+      margin-right: 7px;
+      opacity: .6; }
       .footer .footer__list .footer__list__item a {
         color: #FFF; }
   .footer .footer__wp_content {

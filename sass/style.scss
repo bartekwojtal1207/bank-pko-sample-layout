@@ -36,11 +36,14 @@ body {
     .credit__title {
       margin: 0;
       margin-top: 7px;
+      font-size: 24px;
+      line-height: 28px;
     }
 
     .credit__bank_name {
       color: rgba(0,0,0,.3);
       width: 100%;
+      line-height: 24px;
     }
 
     .credit__raiting {
@@ -51,15 +54,16 @@ body {
     }
   }
 
-
   .credit__info {
     padding-left: 0;
+    margin-top: 10px;
 
-    .credit__info__amount {
+    .credit__info__list {
       margin-bottom: 0;
-    }
-    .credit__info__time {
-      margin-bottom: 0;
+      font-size: 14px;
+      color: #333;
+      padding-left: 0;
+      list-style: none;
     }
   }
 
@@ -103,11 +107,11 @@ body {
     padding-bottom: 20px;
   }
 
-
   .contact__title {
     font-size: 28px;
     margin: 27px 0 10px;
   }
+
   .contact__subtitle {
     font-size: 14px;
     line-height: 16px;
@@ -139,11 +143,18 @@ body {
       top: -30px;
       color: #495057;
     }
-    .contact__form__checkbox_label {
-      font-size: 14px;
-      line-height: 20px;
-      color: rgba(0,0,0,.6);
+
+    .contact__form__check_wrapper {
+      margin-top: 20px;
+      margin-bottom: 10px;
+
+      .contact__form__checkbox_label {
+        font-size: 14px;
+        line-height: 20px;
+        color: rgba(0,0,0,.6);
+      }
     }
+
     .contact__contact_form__submit {
       margin-top: 10px;
       background-color: #57A403;
@@ -156,7 +167,6 @@ body {
 
 }
 
-
 .footer {
   background-color: #26282b;
   position: fixed;
@@ -164,10 +174,9 @@ body {
   width: 100%;
   color: #a9a9a9;
   font-size: 14px;
+  padding-top: 10px;
 
-  .container {
-    padding-left: 0;
-  }
+  .container { padding-left: 0; }
 
   .footer__list {
     padding-left: 0;
@@ -176,10 +185,9 @@ body {
     .footer__list__item {
       display: inline-block;
       margin-right: 7px;
+      opacity: .6;
 
-      a {
-        color: #FFF;
-      }
+      a { color: #FFF; }
     }
   }
   .footer__wp_content {
