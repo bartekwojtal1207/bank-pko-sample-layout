@@ -2,7 +2,8 @@ body {
   font-family: 'Source Sans Pro', sans-serif; }
 
 .header .header__title {
-  padding: 20px 0 40px 0;
+  margin-top: 30px;
+  margin-bottom: 60px;
   font-size: 30px; }
   .header .header__title .header__title__link {
     color: #212529; }
@@ -59,6 +60,24 @@ body {
       display: inline-block;
       color: #a9a9a9; }
 
+.contact .contact__form_wraper {
+  padding-bottom: 20px; }
+
 .contact .contact__title {
   font-size: 28px;
   margin-top: 20px; }
+
+.contact .contact__contact_form__submit {
+  margin-top: 10px;
+  background-color: #57A403;
+  width: 100%;
+  font-size: 17px;
+  margin-bottom: 20px; }
+
+.footer {
+  background-color: #26282b;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: #a9a9a9;
+  font-size: 14px; }
