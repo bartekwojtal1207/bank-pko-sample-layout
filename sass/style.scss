@@ -114,17 +114,20 @@ body {
       border-radius: 0;
       outline: none;
       box-shadow: none;
+      color: #000;
     }
     .contact__form__input_label {
       position: relative;
       z-index: 99;
       top: 40px;
+      color: #495057;
     }
     .contact__contact_form__submit {
       margin-top: 10px;
       background-color: #57A403;
       width: 100%;
       font-size: 17px;
+      border: none;
       margin-bottom: 20px;
     }
   }
