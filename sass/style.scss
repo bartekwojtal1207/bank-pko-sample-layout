@@ -101,17 +101,34 @@ body {
 
   .contact__title {
     font-size: 28px;
-    margin-top: 20px;
+    margin-top: 30px;
   }
 
-  .contact__contact_form__submit {
-    margin-top: 10px;
-    background-color: #57A403;
-    width: 100%;
-    font-size: 17px;
-    margin-bottom: 20px;
+  .form-group { margin-bottom: 0; }
 
+  .contact__form {
+
+    .contact__form__input {
+      border: none;
+      border-bottom: 1px solid cadetblue;
+      border-radius: 0;
+      outline: none;
+      box-shadow: none;
+    }
+    .contact__form__input_label {
+      position: relative;
+      z-index: 99;
+      top: 40px;
+    }
+    .contact__contact_form__submit {
+      margin-top: 10px;
+      background-color: #57A403;
+      width: 100%;
+      font-size: 17px;
+      margin-bottom: 20px;
+    }
   }
+
 }
 
 
@@ -121,6 +138,29 @@ body {
   bottom: 0;
   width: 100%;
   color: #a9a9a9;
-  font-size: 14px
+  font-size: 14px;
 
+  .container {
+    padding-left: 0;
+  }
+
+  .footer__list {
+    padding-left: 0;
+    display: inline-block;
+
+    .footer__list__item {
+      display: inline-block;
+      margin-right: 7px;
+
+      a {
+        color: #FFF;
+      }
+    }
+  }
+  .footer__wp_content {
+
+    .footer__wp_content__logo {
+      margin-right: 5px;
+    }
+  }
 }

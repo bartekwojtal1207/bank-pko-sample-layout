@@ -65,9 +65,21 @@ body {
 
 .contact .contact__title {
   font-size: 28px;
-  margin-top: 20px; }
+  margin-top: 30px; }
 
-.contact .contact__contact_form__submit {
+.contact .contact__form .contact__form__input {
+  border: none;
+  border-bottom: 1px solid cadetblue;
+  border-radius: 0;
+  outline: none;
+  box-shadow: none; }
+
+.contact .contact__form .contact__form__input_label {
+  position: relative;
+  z-index: 99;
+  top: 40px; }
+
+.contact .contact__form .contact__contact_form__submit {
   margin-top: 10px;
   background-color: #57A403;
   width: 100%;
@@ -81,3 +93,15 @@ body {
   width: 100%;
   color: #a9a9a9;
   font-size: 14px; }
+  .footer .container {
+    padding-left: 0; }
+  .footer .footer__list {
+    padding-left: 0;
+    display: inline-block; }
+    .footer .footer__list .footer__list__item {
+      display: inline-block;
+      margin-right: 7px; }
+      .footer .footer__list .footer__list__item a {
+        color: #FFF; }
+  .footer .footer__wp_content .footer__wp_content__logo {
+    margin-right: 5px; }
