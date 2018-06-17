@@ -65,6 +65,7 @@ body {
       padding-left: 0;
       list-style: none;
     }
+
   }
 
   .credit__hr {
@@ -148,13 +149,67 @@ body {
       margin-top: 20px;
       margin-bottom: 10px;
 
+      .form-check {
+        border-bottom: 1px dotted rgba(0,0,0,.3);
+      }
+
+      .form-check:last-of-type{
+        border-bottom: none;
+      }
+
       .contact__form__checkbox_label {
         font-size: 14px;
         line-height: 20px;
         color: rgba(0,0,0,.6);
+        &:hover {
+          cursor: pointer;
+        }
       }
-    }
 
+
+
+      .form-check-input {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+        left: 22px;
+        top: 2px;
+        z-index: 2;
+      }
+
+      .contact__form__check_wrapper__fake_checkbox {
+        position: absolute;
+        top: 5px;
+        left: 0;
+        height: 15px;
+        width: 15px;
+        background-color: #FFF;
+        border: 1px solid rgba(0,0,0,.15);
+        &:hover {
+          cursor: pointer;
+        }
+      }
+      .contact__form__check_wrapper__fake_checkbox:after {
+        content: "";
+        position: absolute;
+        display: none;
+      }
+      .contact__form__check_wrapper__fake_checkbox:after {
+        left: 4px;
+        top: 1px;
+        width: 5px;
+        height: 10px;
+        border: solid rgba(0,0,0,.5);
+        border-width: 0 2px 2px 0;
+        -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+      }
+
+    }
+    input:checked ~ .contact__form__check_wrapper__fake_checkbox:after {
+      display:block
+    }
     .contact__contact_form__submit {
       margin-top: 10px;
       background-color: #57A403;
