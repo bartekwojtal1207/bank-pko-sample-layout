@@ -6,7 +6,7 @@ body {
 
 .header .header__title {
   margin-top: 30px;
-  margin-bottom: 60px;
+  margin-bottom: 50px;
   font-size: 30px;
   line-height: 24px; }
   .header .header__title .header__title__link {
@@ -54,7 +54,7 @@ body {
 
 .security .security__container {
   padding-left: 0;
-  padding-top: 35px; }
+  padding-top: 43px; }
 
 .security .security__list {
   padding-left: 0; }
@@ -82,13 +82,12 @@ body {
 .contact .contact__subtitle {
   font-size: 14px;
   line-height: 16px;
-  display: block;
-  margin-bottom: 28px; }
+  display: block; }
 
 .contact .form-group {
   margin-bottom: 0;
   height: 38px;
-  margin-top: 20px; }
+  margin-top: 18.5px; }
 
 .contact .contact__form .contact__form__input {
   border: none;
@@ -110,7 +109,9 @@ body {
   margin-top: 20px;
   margin-bottom: 10px; }
   .contact .contact__form .contact__form__check_wrapper .form-check {
-    border-bottom: 1px dotted rgba(0, 0, 0, 0.3); }
+    border-bottom: 1px dotted rgba(0, 0, 0, 0.3);
+    margin-bottom: 3px;
+    padding-bottom: 2px; }
   .contact .contact__form .contact__form__check_wrapper .form-check:last-of-type {
     border-bottom: none; }
   .contact .contact__form .contact__form__check_wrapper .contact__form__checkbox_label {
@@ -160,7 +161,18 @@ body {
   width: 100%;
   font-size: 17px;
   border: none;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  height: 50px;
+  text-transform: uppercase;
+  font-weight: bold; }
+  .contact .contact__form .contact__contact_form__submit:active {
+    background-color: #57A403;
+    border-color: #57A403; }
+  .contact .contact__form .contact__contact_form__submit:focus {
+    box-shadow: none; }
+
+.contact .contact__form .btn-primary:not(:disabled):not(.disabled):active:focus, .contact .contact__form .show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: none; }
 
 .footer {
   background-color: #26282b;

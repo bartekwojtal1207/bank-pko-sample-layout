@@ -7,7 +7,7 @@ body {
 .header {
   .header__title {
     margin-top: 30px;
-    margin-bottom: 60px;
+    margin-bottom: 50px;
     font-size: 30px;
     line-height: 24px;
 
@@ -77,8 +77,9 @@ body {
 .security {
   .security__container {
     padding-left: 0;
-    padding-top: 35px;
+    padding-top: 43px;
   }
+
   .security__list {
     padding-left: 0;
 
@@ -117,13 +118,12 @@ body {
     font-size: 14px;
     line-height: 16px;
     display: block;
-    margin-bottom: 28px;
   }
 
   .form-group {
     margin-bottom: 0;
     height: 38px;
-    margin-top: 20px;
+    margin-top: 18.5px;
   }
 
   .contact__form {
@@ -151,6 +151,8 @@ body {
 
       .form-check {
         border-bottom: 1px dotted rgba(0,0,0,.3);
+        margin-bottom: 3px;
+        padding-bottom: 2px;
       }
 
       .form-check:last-of-type{
@@ -217,7 +219,18 @@ body {
       font-size: 17px;
       border: none;
       margin-bottom: 20px;
+      height: 50px;
+      text-transform: uppercase;
+      font-weight: bold;
+      &:active {
+        background-color: #57A403;
+        border-color: #57A403;
+      }
+      &:focus {
+        box-shadow: none;
+      }
     }
+    .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus { box-shadow: none;};
   }
 
 }
